@@ -1,0 +1,24 @@
+{
+    "name": "WidgetBarometer",
+    "version": "1.0.0",
+    "keywords": "Widget,Barometer",
+    "description": "气压计应用库",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/intoyuniot/WidgetBarometer.git"
+    },
+    "authors": {
+        "name": "robin",
+        "email": "robin@molmc.com"
+    },
+    "dependencies":
+    [
+        {
+            "name": "BMP180",
+            "frameworks": "arduino"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
+
